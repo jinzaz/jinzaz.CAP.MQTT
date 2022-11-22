@@ -9,6 +9,8 @@ namespace Sample.MQTT.Mysql
         {
             var builder = WebApplication.CreateBuilder(args);
 
+
+            builder.Services.AddDbContext<AppDbContext>(); //Options, If you are using EF as the ORM
             // Add services to the container.
             builder.Services.AddCap(x => {
                 x.UseEntityFramework<AppDbContext>();
