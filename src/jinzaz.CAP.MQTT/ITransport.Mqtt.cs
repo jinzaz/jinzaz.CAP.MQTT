@@ -40,7 +40,7 @@ namespace jinzaz.CAP.MQTT
                 var applicationMessageBuild = new MqttApplicationMessageBuilder()
                 .WithTopic(message.GetName())
                 .WithPayload(JsonConvert.SerializeObject(mqttMessage))
-                .WithQualityOfServiceLevel(MqttQualityOfServiceLevel.ExactlyOnce);// qos
+                .WithQualityOfServiceLevel(MqttQualityOfServiceLevel.AtLeastOnce);// qos
                 var result = await mqttClient.PublishAsync(applicationMessageBuild.Build());
 
                 if (result.ReasonCode == MqttClientPublishReasonCode.Success)
