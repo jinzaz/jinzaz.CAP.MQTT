@@ -9,6 +9,7 @@
     <Title>DotNetCore.CAP  MQTT Extensions Support</Title>
     <Authors>john.jiang</Authors>
     <Description>DotNetCore.CAP  MQTT Extensions Support</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
