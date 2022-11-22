@@ -78,7 +78,7 @@ namespace jinzaz.CAP.MQTT
 
         public void Connect()
         {
-            if (_mqttClient.IsConnected)
+            if (_mqttClient != null && _mqttClient.IsConnected)
             {
                 return;
             }
