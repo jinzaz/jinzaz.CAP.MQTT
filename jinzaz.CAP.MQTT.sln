@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7E403422-B679-4C35-8DE6-F769B260EE55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{B35AF70F-DF32-4494-A50C-D78A53F0C780}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jinzaz.CAP.MQTT", "src\jinzaz.CAP.MQTT\jinzaz.CAP.MQTT.csproj", "{2300B644-7E21-4653-88E2-83F52707E516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.MQTT.Mysql", "examples\Sample.MQTT.Mysql\Sample.MQTT.Mysql.csproj", "{F766E911-B90F-4476-931D-A4276301B47D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2300B644-7E21-4653-88E2-83F52707E516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2300B644-7E21-4653-88E2-83F52707E516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2300B644-7E21-4653-88E2-83F52707E516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2300B644-7E21-4653-88E2-83F52707E516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F766E911-B90F-4476-931D-A4276301B47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F766E911-B90F-4476-931D-A4276301B47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F766E911-B90F-4476-931D-A4276301B47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F766E911-B90F-4476-931D-A4276301B47D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2300B644-7E21-4653-88E2-83F52707E516} = {7E403422-B679-4C35-8DE6-F769B260EE55}
+		{F766E911-B90F-4476-931D-A4276301B47D} = {B35AF70F-DF32-4494-A50C-D78A53F0C780}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17AB854F-32E2-4676-AF92-76F51EF8DBE2}
+	EndGlobalSection
+EndGlobal
