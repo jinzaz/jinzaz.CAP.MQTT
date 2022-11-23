@@ -2,7 +2,7 @@
 dotnetcore/CAP的MQTT扩展支持
 
 ```
-// select a database provider you are using, event log table will integrate into.
+// select a transport provider you are using, event log table will integrate into.
 
 PM> Install-Package jinzaz.CAP.MQTT
 ```
