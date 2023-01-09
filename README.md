@@ -1,5 +1,5 @@
 # jinzaz.CAP.MQTT
-dotnetcore/CAP的MQTT扩展支持 ![Nuget](https://img.shields.io/nuget/v/jinzaz.CAP.MQTT) ![GitHub](https://img.shields.io/github/license/jinzaz/jinzaz.CAP.MQTT) ![Nuget](https://img.shields.io/nuget/dt/jinzaz.CAP.MQTT)
+dotnetcore/CAP的MQTT扩展支持 ![Nuget](https://img.shields.io/nuget/v/jinzaz.CAP.MQTT) ![GitHub](https://img.shields.io/github/license/jinzaz/jinzaz.CAP.MQTT?color=blue) ![Nuget](https://img.shields.io/nuget/dt/jinzaz.CAP.MQTT?color=blue) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jinzaz/jinzaz.CAP.MQTT)
 
 ```
 // select a transport provider you are using, event log table will integrate into.
